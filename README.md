@@ -17,7 +17,7 @@ also easy to use, for add sidebar menu you can use array list, also use config f
 
 #### Via Composer
 ```bash
-composer require mhk67/admin-lte
+composer require mhk67/admin-lte:dev-main
 ```
 
 after install use this command:
