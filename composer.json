@@ -14,5 +14,6 @@
             "email": "hs9u@yahoo.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "stable"
 }
