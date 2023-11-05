@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "mhk67\\AdminLte\\AdminLteServiceProvider"
+                "Mhk67\\AdminLte\\AdminLteServiceProvider"
             ]
         }
     }
