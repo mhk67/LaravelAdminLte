@@ -22,7 +22,7 @@ composer require mhk67/admin-lte:dev-main
 
 after install use this command:
 ```bash
-php artisan vendor:publish
+php artisan vendor:publish --provider=Mhk67\AdminLte\AdminLteServiceProvider
 ```
 
 ## config file: 
