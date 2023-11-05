@@ -1,0 +1,17 @@
+{
+    "name": "mhk67/admin-lte",
+    "description": "very easy to use, AdminLte is a Bootstrap Admin Panel.\nWe use This to Make Laravel Admin Panel, And added RTL Support, exist Light and and dark Theme.\nalso easy to use, for add sidebar menu you can use array list, also use config file to set dark or use RTL",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mhk67\\AdminLte\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hossein",
+            "email": "hs9u@yahoo.com"
+        }
+    ],
+    "require": {}
+}
