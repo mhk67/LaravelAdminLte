@@ -1,7 +1,7 @@
 # Laravel AdminLTE - Bootstrap 4 Admin Dashboard
 
 **Laravel AdminLTE** very easy to use, AdminLte is a Bootstrap Admin Panel.
-We use This to Make Laravel Admin Panel, And added RTL Support, exist Light and and dark Theme.
+We use This to Make Laravel Admin Panel, And added RTL Support, exist Light  and dark Theme.
 also easy to use, for add sidebar menu you can use array list, also use config file to set dark or use RTL
 
 **Preview:**
