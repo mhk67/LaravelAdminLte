@@ -9,68 +9,7 @@ class DashboardMenuController
 {
     private function menu_list()
     {
-        return [
-            [
-                'text'=>'Dashboard',
-                'link'=>'#',
-                'icon'=>'fas fa-tachometer-alt',
-                'badge'=>[],
-                'sub-menu'=>[
-                    [
-                        'text'=>'Dashboard v1',
-                        'link'=>'AdminLte.dashboard',
-                        'icon'=>'far fa-circle',
-                        'badge'=>[],
-                        'sub-menu'=>[],
-                    ],
-                    [
-                        'text'=>'Dashboard v2',
-                        'link'=>'AdminLte.dashboard2',
-                        'icon'=>'far fa-circle',
-                        'badge'=>[],
-                        'sub-menu'=>[],
-                    ],
-                ],
-            ],
-            [
-                'text'=>'Widgets',
-                'link'=>'#',
-                'icon'=>'fas fa-th',
-                'badge'=>['danger'=>'New'],
-                'sub-menu'=>[],
-            ],
-            [
-                'text'=>'Layout Option',
-                'link'=>'#',
-                'icon'=>'fas fa-copy',
-                'badge'=>['info'=>'6'],
-                'sub-menu'=>[
-                    [
-                        'text'=>'Top Navigation',
-                        'link'=>'index',
-                        'icon'=>'far fa-circle',
-                        'badge'=>[],
-                        'sub-menu'=>[],
-                    ],
-
-                ],
-            ],
-            [
-                'text'=>'Important',
-                'link'=>'#',
-                'icon'=>'far fa-circle text-danger',
-                'badge'=>[],
-                'sub-menu'=>[],
-            ],
-            [
-                'text'=>'Warning',
-                'link'=>'#',
-                'icon'=>'far fa-circle text-warning',
-                'badge'=>[],
-                'sub-menu'=>[],
-            ],
-
-        ];
+        return config('AdminLte.sidebar_menu');
     }
     private function check_menu_open($menu)
     {
@@ -98,11 +37,6 @@ class DashboardMenuController
         $menu=$this->menu_list();
         $result = $this->check_menu_open($menu);
         return $result['menu'];
-    }
-
-    public function get_route()
-    {
-        dd($this->get_menu());
     }
 
 }
