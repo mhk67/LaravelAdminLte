@@ -4,7 +4,7 @@ return [
     'brandName' => 'AdminLTE3',
     'brandLink' => 'AdminLte.dashboard', #route name
     'theme' => 'light', #light or dark
-    'rtl' => false, #false or true
+    'rtl' => true, #false or true
     'sidebar_menu'=>[
         [
             'text'=>'Dashboard',
@@ -36,14 +36,14 @@ return [
             'sub-menu'=>[],
         ],
         [
-            'text'=>'Layout Option',
+            'text'=>'Tables',
             'link'=>'#',
-            'icon'=>'fas fa-copy',
+            'icon'=>'fas fa-table',
             'badge'=>['info'=>'6'],
             'sub-menu'=>[
                 [
-                    'text'=>'Top Navigation',
-                    'link'=>'AdminLte.blank',
+                    'text'=>'Simple Tables',
+                    'link'=>'AdminLte.table.simple',
                     'icon'=>'far fa-circle',
                     'badge'=>[],
                     'sub-menu'=>[],

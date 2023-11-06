@@ -13,5 +13,9 @@ class DashboardController
 //        return view('AdminLte::pages.admin',compact('menu'));
         return view('AdminLte::pages.admin');
     }
+    public function table()
+    {
+        return view('AdminLte::pages.table_simple');
+    }
 
 }
